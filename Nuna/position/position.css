@@ -1,0 +1,22 @@
+.box {
+    width:100px;
+    height:100px;
+}
+
+.red {
+    background-color:red;
+}
+.yellow {
+    background-color:yellow;
+}
+.blue {
+    background-color:blue;
+}
+
+.locate {
+    position:relative;  /* relative : 현재 위치에서 시작 */
+    left:30px;          /* absolute : 화면의 절댓값 위치 */
+    top:30px;           /* static : 디폴트값 (left, bottom 등이 의미 없음) */  
+}                       /* fixed : absolute와 비슷한 위치에 자리잡지만 스크롤 바를 내려도 고정된 위치 유지 */
+                        /* sticky : relative와 비슷한 위치에 자리잡지만 스크롤 바를 내려도 고정된 위치 유지 */
+

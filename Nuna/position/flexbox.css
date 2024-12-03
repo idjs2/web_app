@@ -1,0 +1,17 @@
+/* flexbox는 화면의 크기 조절에 따라 요소들의 크기를 자동으로 조절해줌 */
+.mother {
+    border:1px solid red;
+    display:flex;  /* 모든 요소를 가로 정렬 */
+    /* justify-content:center; */
+        /* flex-start, flex-end, center, space-between, space-around */
+    align-items:flex-end;
+        /* flex-start, flex-end, center */
+    height:100vh;
+    flex-direction:column;  /* children을 세로 배치상태로 조작 가능*/
+}                              
+
+.children {
+    background-color:blueviolet;
+    width:100px;
+    height:100px;
+}
