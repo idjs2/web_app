@@ -1,0 +1,16 @@
+.box {
+    background-color:black;
+    color:white;
+    width:100px;
+    height:100px;
+}
+.main {
+    display:flex;
+    justify-content:space-between;
+}
+.submain {
+    display:flex;
+}
+.mr-5 {
+    margin-right:5px;
+}
