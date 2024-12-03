@@ -1,0 +1,102 @@
+html {
+    height: 100%;
+    width: 100%;
+  }
+  
+  body {
+    display:contents;
+  }
+  
+  .navbar {
+    float:right;  /* 정렬 left,right */
+    /* border:1px solid red; */  /* 설계도 할때 쓰이는 꿀팁 */
+    margin:20px;
+  }
+  
+  .nav-item {
+    text-decoration:none; /* 밑줄 지우기 */
+    color:black;
+    margin-right:15px;
+  }
+  
+  .nav-item:hover {  /* 이벤트명 : hover (마우스를 올렸을 때)*/    /* 이벤트 종류 : hover, active, focus 등 */
+    text-decoration:underline;
+  }
+  
+  .main {
+    margin-top:300px;
+    text-align:center;
+  }
+  
+  .input-area {
+    margin-top:20px;
+  }
+  
+  .input-box {
+    width:583px;
+    height:46px;
+    border-radius:24px;  /* 둥근 테두리 */
+    border:1px solid #dfe1e5;
+    padding-left:40px;
+    padding-right:40px;
+  }
+  
+  .search-icon {
+    position:relative;  /* 위치를 관리하는 요소 */
+    left:40px;
+    color:#9aa0a6;
+  }
+  .mic-icon {
+    position:relative;
+    right:40px;
+  }
+  .button-area {
+    padding-top:18px;
+  }
+  
+  .button-style {
+    height:36px;
+    background-color:#f8f9fa;
+    border:1px solid #f8f9fa;
+    border-radius:4px;
+    color:#3c4043;
+    font-family:arial, sans-serif;
+    padding:0 16px;  /* 상하0 좌우16 */
+  }
+  .button-style:hover {
+    box-shadow:0 1px 1px 1px rgb(0 0 0 / 10%);
+    background-color:#f8f9fa;
+    border:1px solid #dadce0;
+    color:#202124;
+  }
+  
+  .footer {
+    position:absolute;
+    bottom:0px;
+    background:#f2f2f2;
+    width:100%;  /* absolute를 쓸 경우 박스가 가로 한 줄이 아닌 딱 사용중인 사이즈의 박스만 영역으로 지정된다. width로 가로 한 줄을 통째로 영역으로 지정 */
+  }
+  
+  .first-line {
+    padding:15px 30px;
+    border-bottom:1px solid #dadce0;
+    font-size:15px;
+    color:rgba(0,0,0,.54);
+  }
+  .second-line {
+    padding:15px 30px;
+    font-size:15px;
+    color:rgba(0,0,0,.54);
+  }
+  
+  .second-line-second {
+    float:right;
+  }
+  .footer-item {
+    text-decoration:none;
+    color:black;
+    margin-right:10px;
+  }
+  .footer-item:hover {
+    text-decoration:underline;
+  }

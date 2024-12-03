@@ -1,0 +1,30 @@
+html {
+    height: 100%;
+    width: 100%;
+  }
+  
+  .red-align {
+    color:red;
+    background-color:yellow;
+    text-align:center;
+  }
+  
+  .border-blue {
+    border: 3px solid blue;
+  }
+  
+  .img-size {
+    width:200px;
+    height:200px;
+  }
+  
+  .margin-space {
+    margin-top:40px;
+    margin-left:100px;
+    margin-bottom:40px;
+  }
+  
+  .padding-space {
+    padding-top:40px;
+    padding-left:50px;
+  }
