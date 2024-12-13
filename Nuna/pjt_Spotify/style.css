@@ -2,18 +2,45 @@ body {
     margin:0px;
 }
 
+/* nav */
 .nav {
     height:80px;
     background-color:black;
+    display:flex;
+    align-items:center;
+    justify-content:space-around;
 }
 
+.nav-bar {
+    float:right;
+    margin:20px;
+}
+.nav-item {
+    padding:28px 17px;
+    text-decoration:none;
+    color:white;
+    font-weight:700;
+}
+.nav-item:hover {
+    text-decoration:underline;
+}
+
+/* main */
 .main {
     height:969px;
     background-color:rgb(41, 65, 171);
 }
 
+/* footer */
 .footer {
     height:530px;
     background-color:black;
+    display:flex;
+    justify-content:center;
 }
 
+.box {
+    border:white solid 1px;
+    height:350px;
+    width:140px;
+}
