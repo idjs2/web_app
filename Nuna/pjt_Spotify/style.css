@@ -35,6 +35,15 @@ body {
 .footer {
     height:530px;
     background-color:black;
+    display:flex;
+    justify-content:center;
+}
+
+.container {
+    max-width: 1170px;
+    width: 100%;
+    padding-top: 80px;
+    padding-bottom: 50px;
 }
 
 /* .box { 
