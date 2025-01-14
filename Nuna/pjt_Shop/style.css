@@ -1,0 +1,9 @@
+.btn-outline-success {
+    color:pink;
+    border-color:pink;
+}
+.btn-outline-success:hover {
+    background-color:pink;
+    border-color:pink;
+    color:white;
+}
