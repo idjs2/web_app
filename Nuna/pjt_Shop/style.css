@@ -24,8 +24,8 @@ footer {
     display:none;
 }
 
-/* 미디어 쿼리 : 화면 사이즈에 맞게 Component들을 조절할 수 있음. 모바일 버전에 효과적 */
-@media screen and (max-width:48rem) {  /* 0~48rem 사이에서 적용*/
+/* 미디어 쿼리 : 화면 사이즈에 맞게 Component들을 조절할 수 있음. 다양한 사이즈의 미디어에 따라 효과적 */
+@media screen and (max-width:48rem) {  /* 0~48rem 사이즈의 미디어에서 적용*/
     .first-line {
         text-align:center;
     }

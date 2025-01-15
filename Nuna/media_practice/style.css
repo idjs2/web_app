@@ -1,0 +1,39 @@
+body {
+    color:blue;
+}
+
+/* min-max */
+/* @media (max-width:600px) {
+    .cellphone {
+        color:red;
+    }
+}
+@media (min-width:600px) and (max-width:992px) {
+    .tablet {
+        color:red;
+    }
+}
+@media (min-width:992px) {
+    .desktop {
+        color:red;
+    }
+} */
+
+/* orientation */
+@media (orientation:landscape) {  /* 가로 > 세로 */
+    body {
+        color:green;
+        display:flex;  /* 가로>세로 일때는 가로배치 */
+    }                  /* 가로<세로 일때는 원래대로 세로배치 */
+}
+@media (orientation:portrait) {  /* 가로 < 세로 */
+    body {
+        color:orange;
+    }
+}
+
+@media print {  /* 인쇄시 */  /* screen:기본화면 print:인쇄 */
+    body {
+        color:purple;
+    }
+}
