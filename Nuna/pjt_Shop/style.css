@@ -7,3 +7,34 @@
     border-color:pink;
     color:white;
 }
+
+footer {
+    background-color:black;
+    color:white;
+}
+
+.first-line {
+    border-bottom:1px solid #392d23;
+}
+.second-line a {  /* second-line이라는 class 아래 모든 a 태그에 적용용 */
+    color:white;
+    text-decoration:none;
+}
+.third-line {
+    display:none;
+}
+
+/* 미디어 쿼리 : 화면 사이즈에 맞게 Component들을 조절할 수 있음. 모바일 버전에 효과적 */
+@media screen and (max-width:48rem) {  /* 0~48rem 사이에서 적용*/
+    .first-line {
+        text-align:center;
+    }
+    .second-line {
+        padding-left:2rem;
+        padding-right:2rem;
+        border-bottom:1px solid #392d23;
+    }
+    .third-line {
+        display:block;
+    }
+}
