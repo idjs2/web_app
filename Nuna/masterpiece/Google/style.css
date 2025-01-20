@@ -1,0 +1,13 @@
+
+.navbar {
+    float:right;
+}
+.nav-item {
+    margin-top:2px;
+    margin-right:10px;
+    color:gray;
+    text-decoration:none;
+}
+.last-item {
+    margin-right:15px;
+}
