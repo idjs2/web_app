@@ -24,9 +24,30 @@ body {
     text-align:center;
 }
 
-input {
-    background-color: var(--color-searchbox-background);
+.search {
+    margin-top:20px;
 }
+.input-box {
+    width:583px;
+    height:46px;
+    border-radius:24px;  /* 둥근 테두리 */
+    border:1px solid #dfe1e5;
+    padding-left:40px;
+    padding-right:40px;
+}
+.search-icon {
+    position:relative;
+    left:40px;
+}
+.mic-icon {
+    position:relative;
+    right:40px;
+}
+.camera-icon {
+    position:relative;
+    right:40px;
+}
+
 .i-size {
     height:5px;
     width:5px;
