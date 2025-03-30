@@ -1,0 +1,80 @@
+body {
+    margin:0px;
+    /* font-family: spotify-circular, Helvetica, Arial, sans-serif; */
+}
+
+/* nav */
+nav {
+    height:80px;
+    background-color:rgb(0, 0, 0);
+    display:flex;
+    align-items:center;
+    justify-content:space-around;
+}
+
+.logo {
+    color:rgb(239, 175, 56);
+    font-style:italic;
+    font-size:30px;
+}
+
+.nav-bar {
+    float:right;
+    margin:20px;
+}
+.nav-item {
+    padding:28px 17px;
+    text-decoration:none;
+    color:white;
+    font-weight:700;
+}
+.nav-item:hover {
+    color:#1ed760;
+}
+
+/* main */
+.main {
+    height:969px;
+    background-color:rgb(41, 65, 171);
+    background-image: url(https://www-growth.scdn.co/static/home/bursts.svg);
+    background-size: 175%;
+    background-position: 46% 4%;  /* image x,y 좌표 이용하여 위치 조절 */
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.headline {
+    font-size:156px;
+    font-weight:900;
+    color:#1ed760;
+}
+.headline-first {
+    position:relative;
+    left:-1.5em;
+}
+.headline-second {
+    position:relative;
+    left:1.5em;
+}
+
+.sub-headline {
+    color:#1ed760;
+    text-align:center;
+    font-size:18px;
+    padding-bottom:40px;    
+}
+.button-area {
+    text-align:center;
+}
+.button-style {
+    padding: 14px 32px;
+    background-color: #1ed760;
+    border-radius: 500px;
+    font-size: inherit;
+    color: #2941ab;
+    font-weight: 700;
+}
+.button-style:hover {
+    transform:scale(1.2);  /* 마우스 두면 크기 커지는 효과 (120%)*/
+}
